@@ -65,6 +65,7 @@ class AddViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDataS
             do {
                 try TeamObj.managedObjectContext?.save()
                 self.alert(message:"Successfully Done" , title:"Great!" )
+                self.navigationController?.popViewController(animated: true)
 
             } catch {
                 

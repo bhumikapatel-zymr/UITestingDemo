@@ -1,9 +1,9 @@
 //
 //  WebViewController.swift
-//  UI Testing Cheat Sheet
+//  DemoUITest
 //
-//  Created by Joe Masilotti on 9/7/15.
-//  Copyright © 2015 Masilotti.com. All rights reserved.
+//  Created by Bhumika Patel on 22/06/17.
+//  Copyright © 2017 Bhumika Patel. All rights reserved.
 //
 
 import UIKit
