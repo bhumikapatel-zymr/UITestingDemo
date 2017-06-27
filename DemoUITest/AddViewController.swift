@@ -65,7 +65,6 @@ class AddViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDataS
             do {
                 try TeamObj.managedObjectContext?.save()
                 self.alert(message:"Successfully Done" , title:"Great!" )
-                self.navigationController?.popViewController(animated: true)
 
             } catch {
                 
@@ -88,7 +87,7 @@ class AddViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDataS
     let editRadiusAlert = UIAlertController(title: "Choose distance", message: "", preferredStyle: UIAlertControllerStyle.alert)
     editRadiusAlert.setValue(vc, forKey: "contentViewController")
         editRadiusAlert.addAction(UIAlertAction(title: "Done", style: .default, handler:  { action -> Void in
-            
+
             self.txtfieldTCOuntry.text = self.strCountry
         }))
     editRadiusAlert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
