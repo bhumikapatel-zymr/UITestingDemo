@@ -30,7 +30,7 @@ extension XCUIElement {
     }
 }
 
-class DemoUITestUITests: UITestCase {
+class DemoUITestCase: UITestCase {
         
     override func setUp() {
         super.setUp()
